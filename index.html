@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHaroonLLC login form</title>
+    <!-- Font awesome -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+     <!-- Google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap"rel="stylesheet"/> 
+    <!-- css style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar  -->
+    <header class="header">
+        <nav class="Navbar">
+            <a href="#">Home</a>
+            <a href="#">Portfolio</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Help</a> 
+        </nav>
+        <form action="#" class="search-bar">
+            <input type="text" placeholder="Search....">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </header>
+    <!-- Login form -->
+    <div class="backgroud"></div>
+    <div class="container">
+        <div class="item">
+            <h2 class="logo"><img src="image/Smart 1.svg" alt="smart-logo">MHaroonLLC</h2>
+            <div class="text-item">
+                <h2>Welcome !<br><span> To Our Channel</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. ebit,temporibust?</p>
+                <div class="socail-icon">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="login-section">
+            <div class="form-box login">
+                <form action="#">
+                    <h2>Sign In</h2>
+                    <div class="inputbox">
+                        <span class="icon"><i class="fas fa-envelope"></i></span>
+                        <input type="email" required>
+                        <label>Email</label> 
+                    </div>
+                    <div class="inputbox">
+                        <span class="icon"><i class="fas fa-lock"></i></span>
+                        <input type="password" required>
+                        <label>Password</label> 
+                    </div>
+                    <div class="remember-text">
+                        <label><input type="checkbox"> Remember Me</label>
+                        <a href="#">Forgot Password</a>
+                    </div>
+                    <button class="btn">Log In</button>
+                    <div class="creat-text">
+                        <p>Creat A New Account? <a href="#" class="signUpLink">Sign Up</a></p>
+                    </div>
+                </form>
+            </div>
+
+             <!-- SignUp form -->
+            <div class="form-box signup">
+                <form action="#">
+                    <h2>Sign Up</h2>
+                    <div class="inputbox">
+                        <span class="icon"><i class="fas fa-user"></i></span>
+                        <input type="text" required>
+                        <label>Username</label> 
+                    </div>
+                    <div class="inputbox">
+                        <span class="icon"><i class="fas fa-envelope"></i></span>
+                        <input type="email" required>
+                        <label>Email</label> 
+                    </div>
+                    <div class="inputbox">
+                        <span class="icon"><i class="fas fa-lock"></i></span>
+                        <input type="password" required>
+                        <label>Password</label> 
+                    </div>
+                    <div class="remember-text">
+                        <label><input type="checkbox"> I agree with this statement </label>
+                    </div>
+                    <button class="btn">Sign Up</button>
+                    <div class="creat-text">
+                        <p>Already have An Account? <a href="#" class="signInLink">Sign In</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
